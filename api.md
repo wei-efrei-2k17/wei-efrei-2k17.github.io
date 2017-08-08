@@ -15,6 +15,6 @@ The API code is located in `/server/`
 
 ## User authentification
 
-!> AdopteUnFillot use different different for administration and the app! Admin use the default Laravel auth and the app use a custom carefully, Please read the different carefully.
+!> AdopteUnFillot use different auth for administration and the app! Admin use the default Laravel auth and the app use a custom auth, Please read the different carefully.
 
 ?> *TODO* write this section 
