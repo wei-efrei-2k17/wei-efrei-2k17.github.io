@@ -18,4 +18,3 @@ The API code is located in `/server/`
 !> AdopteUnFillot use the default Laravel auth. Please read [the documentation](https://laravel.com/docs/5.4/authentication)
 
 ?> *TODO* write this section
-s
