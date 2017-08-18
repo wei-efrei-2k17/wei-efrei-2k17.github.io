@@ -17,4 +17,10 @@ The API code is located in `/server/`
 
 !> AdopteUnFillot use the default Laravel auth. Please read [the documentation](https://laravel.com/docs/5.4/authentication)
 
-?> *TODO* write this section
+The first step is to fetch the API token for the session, using this route:
+`GET /api/v1/token`
+Using basic auth with email/password.
+
+The API will return an API Token or an `Invalid credentials.` response.
+
+?> This route is the only one to be accessible without an API token
