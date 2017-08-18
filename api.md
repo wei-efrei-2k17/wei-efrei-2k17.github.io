@@ -3,7 +3,7 @@
 AdopteUnFillot use Laravel 5.4 to provide a REST API.   
 The API code is located in `/server/`
 
-!> This API will only reply correctly to a `X-Requested-With: XMLHttpRequest` request with a `Authorization: Bearer <api_token>` Header!
+!> This API will only reply correctly to a `X-Requested-With: XMLHttpRequest` request with a `Authorization: Bearer <api_token>` Header! Otherwise you may recive an `{"error":"Unauthenticated."}` response.
 
 ## Getting started
 
