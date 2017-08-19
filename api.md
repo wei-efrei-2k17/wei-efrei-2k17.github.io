@@ -5,6 +5,8 @@ The API code is located in `/server/`
 
 !> This API will only reply correctly to a `X-Requested-With: XMLHttpRequest` request with a `Authorization: Bearer <api_token>` Header! Otherwise you may recive an `{"error":"Unauthenticated."}` response.
 
+!> AdopteUnFillot use the default Laravel auth. Please read [the documentation](https://laravel.com/docs/5.4/authentication)  
+
 ## Getting started
 
 - Clone this repository : `git clone git@github.com:MrWazaby/AdopeUnFillot.git && cd AdopteUnFillot/server`
@@ -14,10 +16,9 @@ The API code is located in `/server/`
 - Install migrations : `php artisan migrate`
 - Run the dev server : `php artisan serve`
 
+## Token API
 
-## User authentification
-
-!> AdopteUnFillot use the default Laravel auth. Please read [the documentation](https://laravel.com/docs/5.4/authentication)  
+### [GET] Get Token
 
 The first step is to fetch the API token for the session, using this route:  
 `GET /api/v1/token`
@@ -33,6 +34,8 @@ The API will return an api_token or an (if auth failed)
 ?> This route is accessible without an api_token
 
 ## User API
+
+### [GET] Get User
 
 To get current user data just use this route:  
 `GET /api/v1/user`
@@ -56,6 +59,8 @@ This will return smothing like that:
     "isGodFather": 0
 }
 ```
+
+### [GET] Get Registration Variables
 
 To get the variable for the registration form use this route:  
 `GET /api/v1/user/create`
@@ -94,3 +99,8 @@ This will return smothing like that:
 ```
 
 ?> This route is accessible without an api_token, you can edit variables in `server/app/Http/Controllers/UserController.php`
+
+### [POST] Create User
+
+To create a new user use the route:
+`POST /api/v1/user`
