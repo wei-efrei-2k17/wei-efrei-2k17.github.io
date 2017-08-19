@@ -30,14 +30,14 @@ The API will return an api_token or an (if auth failed)
 }
 ```
 
-?> This route is the only one to be accessible without an api_token
+?> This route is accessible without an api_token
 
 ## User API
 
 To get current user data just use this route:  
 `GET /api/v1/user`
 
-This will return smothing like that :
+This will return smothing like that:
 ``` json
 {
     "id": 1,
@@ -56,3 +56,41 @@ This will return smothing like that :
     "isGodFather": 0
 }
 ```
+
+To get the variable for the registration form use this route:  
+`GET /api/v1/user/create`
+
+This will return smothing like that:
+``` json
+{
+    "promos": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+    ],
+    "schools": [
+        "Efrei",
+        "Esigetel",
+        "Efreitech"
+    ],
+    "majeurs": [
+        "Aucune",
+        "Buisness Intelligence",
+        "System and Cloud Engineering",
+        "Image et Réalité Virtuelle",
+        "Big Data",
+        "Information Technology for Finance",
+        "Sécurité",
+        "Software Engineering",
+        "Bio-Informatique",
+        "Avionique et Espace",
+        "Droïde et Drones",
+        "Network and Virtualisation",
+        "Energies nouvelles et Réseaux intelligents"
+    ]
+}
+```
+
+?> This route is accessible without an api_token, you can edit variables in `server/app/Http/Controllers/UserController.php`
