@@ -1,6 +1,7 @@
 # AdopteUnFillot's Backoffice
 
-AdopteUnFillot use Laravel 5.4 with Backpack to provide the Backoffice.
+AdopteUnFillot use Laravel 5.4 with Backpack to provide the Backoffice.  
+The backoffice is at `/admin/`
 
 ## Getting started
 
