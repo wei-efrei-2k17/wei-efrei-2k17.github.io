@@ -104,3 +104,7 @@ This will return smothing like that:
 
 To create a new user use the route:
 `POST /api/v1/user`
+
+This will return you:
+`{"success":true}`
+Or an error message.
