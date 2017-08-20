@@ -5,7 +5,7 @@ The API code is located in `/server/`
 
 !> This API will only reply correctly to a `X-Requested-With: XMLHttpRequest` request with a `Authorization: Bearer <api_token>` Header! Otherwise you may recive an `{"error":"Unauthenticated."}` response.
 
-!> AdopteUnFillot use the default Laravel auth. Please read [the documentation](https://laravel.com/docs/5.4/authentication)  
+!> AdopteUnFillot use the default Laravel auth for login and password reset. Please read [the documentation](https://laravel.com/docs/5.4/authentication)  
 
 ## Getting started
 
