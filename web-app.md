@@ -3,6 +3,8 @@
 AdopteUnFillot use VueJS 2 to provide a Web App and the UI Kit [Now-UI](http://demos.creative-tim.com/now-ui-kit/index.html?affiliate_id=97705#pablo).   
 The Web App code is located in `/client/`
 
+?> AdopteUnFillot Web App use Axios to interact with the REST API. [Learn more](https://github.com/mzabriskie/axios)
+
 ## Getting started
 
 ``` bash
