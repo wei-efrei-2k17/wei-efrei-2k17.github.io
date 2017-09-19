@@ -55,3 +55,18 @@ The login is a basic component, nothing realy complicated here. Just read the co
 ### Registration
 
 Idem for the registration component
+
+## App components
+
+This is the app components (Discover/likes/matches).
+Components are located in `client/src/components`
+
+I have added a now-ui function, this function is call when components is mounted, it's use to initialize Now UI JavaScript.
+
+### Improvements
+
+You may want to improve the following :
+- Show tastes on the same tab (with the picture and the like button)
+- Allow user to see profil of his likes/matches
+- Stick the footer to bottom with flexboxs
+- Improve mobile version
