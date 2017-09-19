@@ -34,6 +34,12 @@ npm test
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+## Results
+
+There is a `window.blockApp` variable located in the `main.js`. If this variable is set to true the app will block registrations and change the hub page with the result page.
+
+The result page is located in `client/src/components/results`.
+
 ## Landing page
 
 The landing page is composed with the login page, the registration page.
@@ -44,4 +50,8 @@ You can find VueJS components for the landing section in `client/src/components/
 
 ### Login
 
-The login component is `login.vue`. This is a basic component, nothing realy complicated here. Just read the code.
+The login is a basic component, nothing realy complicated here. Just read the code.
+
+### Registration
+
+Idem for the registration component
