@@ -56,7 +56,8 @@ This will return smothing like that:
     "sex": 1,
     "majeur": "Sécu",
     "school": "Efrei",
-    "isGodFather": 0
+    "isGodFather": 0,
+    "pseudo": "Chat Bruyant"
 }
 ```
 
